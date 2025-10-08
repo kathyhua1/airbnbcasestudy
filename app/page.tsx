@@ -13,7 +13,7 @@ export default function Home() {
             Kathy Hua
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Sample Case Study: Airbnb
+            Case Study: Airbnb
           </p>
         </div>
 
@@ -21,7 +21,7 @@ export default function Home() {
         <FigmaEmbed 
           figmaUrl={figmaUrl}
           title="Airbnb Case Study Prototype"
-          height="600px"
+          height="700px"
         />
 
 

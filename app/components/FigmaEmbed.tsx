@@ -78,6 +78,7 @@ export default function FigmaEmbed({
             onError={handleError}
             className="w-full border-0"
             style={{ minHeight: typeof height === 'number' ? `${height}px` : height }}
+            loading="lazy"
           />
         )}
       </div>
